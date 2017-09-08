@@ -24,7 +24,7 @@ public class conexion2 {
             ds.setUser("sa");
             ds.setPassword("sa.1");
             ds.setServerName("localhost");
-            ds.setPortNumber(1438);
+            ds.setPortNumber(1433);
             ds.setDatabaseName("ejemplo");
             con = ds.getConnection();
         } catch (Exception e) {
