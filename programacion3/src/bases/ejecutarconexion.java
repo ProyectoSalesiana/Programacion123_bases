@@ -15,6 +15,7 @@ import java.sql.Connection;
 public class ejecutarconexion {
 
     public static void main(String[] args) {
+        System.out.println("ventana de conexion");
         Connection con = conexion2.con();
         if(con!=null)
         {
